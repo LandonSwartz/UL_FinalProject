@@ -51,7 +51,7 @@ def main():
     file_name = 'rotated_point_cloud.png'
 
     pcd = load_point_cloud(file_path)
-    #pcd = rotate_point_cloud(pcd, 90)
+    pcd = rotate_point_cloud(pcd, 90)
     capture_image(pcd, folder_path, file_name)
 
 if __name__ == "__main__":
